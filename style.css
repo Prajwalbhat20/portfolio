@@ -1,0 +1,36 @@
+body {
+    background-color: #020617;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Set full height of the viewport */
+}
+
+.center {
+    text-align: center;
+}
+
+/* Define your default styles for non-mobile devices here */
+a {
+    color: white; /* Set the default color for links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Add transition for smooth color change */
+}
+
+/* Add hover effect for links */
+a:hover {
+    color: lightblue; /* Change color on hover */
+}
+
+/* Example media query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #020617; /* Adjust background color for smaller screens if needed */
+    }
+
+    /* Adjust other styles for smaller screens */
+    .center {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+}
